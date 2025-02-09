@@ -1,4 +1,4 @@
-USE music_shop_db;
+-- USE music_shop_db;  -- 
 
 INSERT INTO inventory (name, image, description, quantity, price)
 VALUES

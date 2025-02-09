@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "migrate": "node db/migrate.js",
     "dev": "npm run mysql && nodemon index.js",
     "test": "npm run mysql && mocha test/tests.js $FLAG --exit; npm run mysql:stop",
     "test:watch": "export FLAG=--watch && npm test",

@@ -1,4 +1,7 @@
-USE music_shop_db;
+-- USE music_shop_db;  -- 
+
+DROP TABLE IF EXISTS cart;
+DROP TABLE IF EXISTS inventory;
 
 CREATE TABLE inventory (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
